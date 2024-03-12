@@ -1,0 +1,10 @@
+lightweight tag edd1fc62caae6cdf9eaedfa5d2e8838af0d4c38c 1.11.12
+Author:	Albert Valiev <artscout@gmail.com>
+Date:	Sat Sep 2 17:57:27 2023 +0200
+
+commit edd1fc62caae6cdf9eaedfa5d2e8838af0d4c38c
+Author: Albert Valiev <artscout@gmail.com>
+Date:   Sat Sep 2 17:57:27 2023 +0200
+
+    Add Womrmhole Generator: Drake Isles and move Ethereal portal to HS analogues
+

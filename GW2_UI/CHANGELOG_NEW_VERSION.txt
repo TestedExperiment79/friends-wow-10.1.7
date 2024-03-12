@@ -1,0 +1,21 @@
+6.10.1
+FIXES
+ - 10.1.7 fixes
+
+6.10.0
+NEW
+ - Added evoker ebon might bar
+
+6.9.2
+FIXES
+    - Fix an actionbars issue which can crash the client
+
+6.9.1
+FIXES
+    - More 10.1.5 related fixes
+
+6.9.0
+NEW
+    - Added font settings for GW2 floating combat text
+MISC
+    - Update for 10.1.5

@@ -1,0 +1,9 @@
+## Interface: 11404
+## Title: ClickedMedia
+## Author: Snakybo
+## Version: 1.13.4
+## Notes: Icon data for Clicked.
+## Dependencies: Clicked
+## LoadOnDemand: 1
+
+MediaClassic.lua

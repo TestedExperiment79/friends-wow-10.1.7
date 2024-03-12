@@ -1,0 +1,14 @@
+﻿## Interface: 100105
+## Author: 谷谷神奇
+## Version: 1.0.0
+## Title:|cff039be5【谷|r|cff03a9f4谷|r|cff29b6f6神|r|cff4fc3f7奇】|r|cff81d4fa材|r|cffb3e5fc质|r|cffe1f5fe包|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge]|r
+## Title-zhTW:|cff039be5【谷|r|cff03a9f4谷|r|cff29b6f6神|r|cff4fc3f7奇】|r|cff81d4fa材|r|cffb3e5fc质|r|cffe1f5fe包|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge]|r
+## Title-zhCN:|cff039be5【谷|r|cff03a9f4谷|r|cff29b6f6神|r|cff4fc3f7奇】|r|cff81d4fa材|r|cffb3e5fc质|r|cffe1f5fe包|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge]|r
+## Notes: 完整功能进阶版Plater配置→ |cfff00078爱|r|cffff0080发|r|cffff359a电|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge|r
+## Notes-zhTW: 完整功能进阶版Plater配置→ |cfff00078爱|r|cffff0080发|r|cffff359a电|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge|r
+## Notes-zhCN: 完整功能进阶版Plater配置→ |cfff00078爱|r|cffff0080发|r|cffff359a电|r|cffff60af@|r|cffff79bcshou|r|cffff95caliu|r|cffffaad5ge|r
+## DefaultState: enabled
+## IconTexture: Interface\Addons\ShouliugeMedia\statusbar\谷谷神奇.tga
+
+# 导入材质
+ShouliugeMedia.lua
