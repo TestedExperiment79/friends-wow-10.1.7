@@ -1,0 +1,39 @@
+## Interface: 100107
+## Title: Talent Tree Tweaks
+## Author: Numy
+## IconTexture: Interface\Addons\TalentTreeTweaks\media\icon
+## Notes: Various improvements and addition to the Dragonflight talent tree UI
+## Version: v1.10.5
+## X-Curse-Project-ID: 678792
+## SavedVariables: TalentTreeTweaksDB
+
+TaintLess.xml
+libs\embeds.xml
+
+locale\locale.xml
+
+core.lua
+SharedUtil.lua
+
+modules\reduceTaint.lua
+modules\dropdownReplacement.xml
+
+modules\tooltipIds.lua
+modules\exportInspectedBuild.lua
+modules\debugNodeInfo.lua
+modules\searchForIds.lua
+modules\scaleTalentFrame.lua
+modules\respecButtonsInTreeUI.lua
+modules\highlightCascadeRepurchable.lua
+modules\clickableExportStringsInChat.lua
+modules\inspectDiff.lua
+modules\alwaysShowGates.lua
+modules\importIntoCurrentLoadout.lua
+modules\unlockRestrictions.lua
+modules\changeBackground.lua
+modules\miscFixes.lua
+modules\copyTalentButtonInfo.lua
+modules\reduceSpam.lua
+modules\miniTreeInTooltip.lua
+
+modules\autoPurchaseDragonRidingTalents.lua

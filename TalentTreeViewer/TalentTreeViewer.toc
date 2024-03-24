@@ -1,0 +1,18 @@
+## Interface: 100107
+## Title: TalentTree Viewer (UI)
+## Notes: View any spec's talent trees from any character
+## Author: Numy
+## IconTexture: Interface\Addons\TalentTreeViewer\media\icon
+## Version: v2.2.13
+## X-Curse-Project-ID: 678279
+## RequiredDeps: Blizzard_ClassTalentUI, TalentTreeViewer_Loader
+## LoadOnDemand: 1
+
+libs\load_libs.xml
+
+locale\locale.xml
+
+TalentViewer.lua
+TalentViewerUIMixin.lua
+ImportExport.lua
+TalentViewerUI.xml
