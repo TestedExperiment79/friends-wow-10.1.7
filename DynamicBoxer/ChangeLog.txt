@@ -1,0 +1,77 @@
+ChangeLog for DynamicBoxer by MooreaTv (moorea@ymail.com)
+
+Coming next:
+- Your input/suggestions welcome !
+- See open issues for ideas https://github.com/mooreatv/DynamicBoxer/issues
+
+v3.11.06 Oct 24th 2023
+- Wrath is now 3.4.3
+- Fix bug / lua error with now gone EXECUTE_CHAT_LINE debug
+
+v3.11.05 Sept 16th 2023
+- Bug fix: restore the `/dbox enable` command (got lost in 3.11.3 when I removed the etrace code under same prefix)
+
+v3.11.04 Sept 6th 2023
+- Dragonflight is now 10.1.7 (please report any issue as I am personally mostly Hardcore classic currently)
+
+v3.11.03 Sept 2nd 2023
+- Comment out the event trace code as /etrace has these built in in all versions now
+
+v3.11.02 Aug 22nd 2023
+- Update for Classic 1.14.4 - in time for Classic Hardcore launch!
+- and also DF 10.1.5 toc
+
+v3.11.01 June 24th 2023
+- Wrath 3.4.2
+
+v3.11.00 May 3rd 2023
+- DragongFlight 10.1.0 toc update + new addon icon (artist contributions welcome for a better one)
+- Fix for legacy with reset of options
+
+v3.10.10 March 26th 2023
+- Legacy (3.3.5a) compatibility: fixed whispers to work (drop realm)
+
+v3.10.09 March 21st 2023
+- Dragonflight 10.0.7 toc update
+
+v3.10.08 March 11 2023
+- Bug fix on team sort lua error when adding a 6th+ slot
+- Removed duplicate code from DBoxClassic.lua that is same in DynamicBoxer.lua
+
+v3.10.06 Jan 27th 2023
+- Wrath toc update
+
+v3.10.05 Jan 27th 2023
+- Dragonflight 10.0.5 toc update
+
+v3.10.04 November 19th 2022
+- Dragonflight toc update
+
+v3.10.03 Oct 29th 2022
+- Fix for ISBoxer new team/macro style.
+- Workaround for /click not working before
+
+v3.10.02 Oct 29th 2022
+- Fixed the Dragonflight option config `/dbox config` error.
+
+v3.10.01 Oct 27th 2022
+- Dragonflight fixes (Font, Click: remaining: Options panel)
+
+v3.10.00 Oct 25th 2022
+- Initial update for Dragonflight
+
+v3.09.06 Sept 4th 2022
+- Pick up MoLib fix for missing constant
+
+v3.09.05 Sept 1st 2022
+- Shadowland 9.2.7
+
+v3.09.04 July 24th 2022
+- Pick up MoLib fix for SetScale error in 335a
+
+v3.09.03 July 7th-23rd 2022
+- Wrath Classic (beta) compatible
+- Version compatible with legacy 3.3.5a client
+- Updated packager
+
+See OlderChangelog.txt for older changes

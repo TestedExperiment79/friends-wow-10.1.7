@@ -1,0 +1,23 @@
+package-as: DynamicBoxer
+
+ignore:
+    - installdb.bat
+    - classictag.sh
+    - DynamicBoxer.png
+    - DynamicBoxer/luaformat.cfg
+    - MoLib/installmolib.bat
+    - MoLib/MoLib.toc
+    - MoLib/luaformat.cfg
+    - MoLib/README.md
+    - MoLib/tests
+
+manual-changelog: ChangeLog.txt
+
+externals:
+    MoLib:
+        url: https://github.com/mooreatv/MoLib
+
+move-folders:
+  DynamicBoxer/DynamicBoxer: DynamicBoxer
+
+enable-nolib-creation: no

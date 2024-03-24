@@ -1,0 +1,257 @@
+ChangeLog for Mama by MooreaTv (moorea@ymail.com)
+
+Coming next:
+- Your input/suggestions welcome !
+- See open issues for ideas https://github.com/mooreatv/Mama/issues)
+
+v1.21.2 Oct 24th 2023
+- Wrath is now 3.4.3
+
+v1.21.1 Sept 16th 2023
+- Fix lua error when invited to group with team not complete
+
+v1.21.0 Sept 16th 2023
+- New `/click MamaTrain` and keybind (need to be redone from older /mama follow train in this release) that works from all characters including the leader (on the leader it stops follow) + assist
+
+v1.20.4 Sept 6th 2023
+- Dragonflight is now 10.1.7 (please report any issue as I am personally mostly Hardcore classic currently)
+
+v1.20.3 Sept 2nd 2023
+- Restore selection of gossip option with team, including initial flight path giver dialog for classic
+  (which now uses the same code as retail C_GossipInfo.SelectOptionByIndex)
+
+v1.20.2 Aug 26th 2023
+- Train further fixed to not spam non functional follow command.
+- Hope everyone is having fun in Classic Hardcore! I am!
+
+v1.20.1 Aug 22nd 2023
+- Made the keybinding for train actually be useful on classic (as in make a train when comming for hardware event)
+
+v1.20.0 Aug 22nd 2023
+- Update for Classic 1.14.4 - in time for Classic Hardcore launch!
+- They broke follow here too now so use /click in each window
+- and also DF 10.1.5 toc
+
+v1.19.1 June 24th 2023
+- Wrath 3.4.2
+
+v1.19.0 May 3rd 2023
+- DragongFlight 10.1.0 toc update + new addon icon
+
+v1.18.7 March 21st 2023
+- Dragonflight 10.0.7 toc update
+- bad eyes, I jumped from 1.10 to 1.18 previous build(!)
+
+v1.18.6 Jan 27th 2023
+- Wrath toc update
+
+v1.10.5 Jan 27th 2023
+- Dragonflight 10.0.5 toc update
+
+v1.10.4 November 19th 2022
+- Dragonflight toc update
+
+v1.10.3 Oct 29th 2022
+- Show the keybindings that don't work in Wrath and Dragonflight last (ie follow related and alltogether)
+
+v1.10.2 Oct 29th 2022
+- Fixed `/mama c` / config panel for Dragonflight
+
+v1.10.1 Oct 29th 2022
+- Dragonflight fixes (Click and inform about Follow protected; remaining: Options panel)
+
+v1.10.0 Oct 25th 2022
+- Initial update for Dragonflight
+
+v1.9.6 Sept 4th 2022
+- Pickup MoLib fix for missing constant in ShadowLand client.
+
+v1.9.5 Sept 1st 2022
+- Deal with the hardware event protection of "FollowUnit()" by Blizzard
+  by adding a new `/click MamaFollow` (will also assist) and keybindings
+
+v1.9.4 July 24th 2022
+- Fixed train (`/mama follow train` or keybind) to be in exact order, ie follow person ahead in team order
+
+v1.9.3 July 17th-23rd 2022
+- Add Wrath Classic (beta) and Legacy 3.3.5a (wip/initial) support
+- Packager fixes
+
+v1.8.5 June 4th 2022
+- Updated for Classic Era 1.14.3 and ShadowLands 9.2.5
+- Added WowInterface id
+
+v1.8.3 March 26th 2022
+- Updated for Burning Crusade 2.5.4
+- peg luacheck to 0.23.0
+
+v1.8.1 Feb 22nd 2022
+- Eternity's End update (9.2.0), also updated packager again to latest community packager (v2)
+
+v1.8.0 Feb 12th 2022
+- Single zip build, toc updates and wago id
+
+v1.7.1 Jan 3rd 2022
+- use hooksecurefunc() instead of replacing functions to improve retail compatibility
+
+v1.7.0 December 19th 2021
+- Added synchronization of npc dialog choices across team
+
+v1.6.5 December 14th 2021
+- Fix distant flight path when toons have exact same matching ids
+  I swear it works now :-) Thx Sawyer for the help/reports
+
+v1.6.4 December 14th 2021
+- Make Flight Path taking work also for distant flights
+
+v1.6.3 December 13th 2021
+- Abandon with team now working and only abandoning if really abandoning
+  Also will refuse to abandon completed quests
+
+v1.6.2 December 13th 2021
+- Disable Abandon quest for now as it triggers on quest completion(!) my bad
+  will fix asap
+
+v1.6.1 December 13th 2021
+- Fix Abandon quest with Team
+
+v1.6.0 December 12th 2021
+- Added option to abandon quests as a team
+- Simplified quest sharing code
+
+v1.5.0 December 1st 2021
+- Added taking same Flight Path option
+
+v1.4.1 December 1st 2021
+- Fixed bug where `/mama m` with no argument would get a warning (#8)
+- Fixed bug with new auto quest that wasn't working on SL (#10)
+
+v1.4.0 November 28th 2021
+- New option to set auto set loot to FFA (and reset to group if inviting extra people)
+- New option to auto share/accept quests (`/mama quest`, thanks @patrick-east for the contribution!)
+- TOC updates for SoM and Shadowlands
+
+v1.3.2 Sept 2nd 2021
+- Updated TOC for Burning Crusade 2.5.2
+
+v1.3.1 June 29th 2021
+- Updated TOCs for Shadowlands Chains of Domination (90100)
+
+v1.3.0 May 10th 2021
+- Support for Burning Crusade Classic (through MoLib v8)
+- Multi TOC support ready for Classic, Classic Era, Burning Crusade and Shadowlands
+
+v1.2.2 May (the) 4th (be with you) 2021
+- Put the alltogether keybind first as it's the most useful/important one
+- Raise the max slot to 16
+
+v1.2.1 April 25th 2021
+- Make sure that `/mama s N` also forces DynamicBoxer to be enabled.
+
+v1.2.0 April 21st 2021
+- Change assist behavior on lead to be noop instead of self assist
+- Bump classic to 1.13.7
+
+v1.1.6 April 18th 2021
+- Pick up new MoLib with multi line output improvements so /mama help output is scrollable
+
+v1.1.5 April 2nd 2021
+- Typo in addon config option fixed
+
+v1.1.4 March 28th 2021
+- Avoid that EMA errors prevent executing Mama core functions
+
+v1.1.3 March 24th 2021
+- Fixed out of party /click MamaAssist
+
+v1.1.2 March 21st 2021
+- Fix bug where group info can return nil
+
+v1.1.1 March 9th 2021
+- Initialize MamaAssist to the party leader at first (but do use the "alltogether" keybinding)
+  cleaned up leader code.
+- Bumped retail TOC
+
+v1.1.0 March 7th 2021
+- Added `/click MamaAssist` and key binding which will assist whichever toon is the
+  current lead. Add this to your macros.
+  (value can't be changed in combat; continue to use party1 for in combat switching)
+
+v1.0.0 Feb 20th 2021
+- Option to hide the minimap button and compatibility fixes from MoLib.
+- Stable and useful enough to call 1.0!
+
+v0.9.1 Jan 31st 2021
+- Added `/mama follow train` and key binding to make a train of follow instead
+  of all following same
+- fixed help output (`/mama`)
+
+v0.8.0 Dec 29th 2020
+- Mount command now also follows by default.
+ (note that if your minions are a bit far they'll follow and break the cast
+  of the mount but you can spam the key now, because:)
+- Mount command doesn't unmount.
+
+v0.7.1 Dec 2nd 2020
+- Classic 1.13.06 + Toc info/pointers for other addon managers.
+
+v0.7.0 Nov 24th 2020
+- Shadowlands 9.0.2 pull fix for blizzard checkboxes missing SetValue from MoLib.
+- Update TOC
+
+v0.6.0 Nov 12th 2020
+- New `/mama mount` and `/mama mount dismount` and keybindings for mounting/dismounting
+  as a team. Note that only dismount works in classic.
+
+v0.5.0 Nov 11th 2020
+- Set EMA master when setting group lead (if EMA is installed and config checkbox is on)
+
+v0.4.2 Nov 10th 2020
+- New `/mama altogether` and keybinding to do both "follow me" and "make me lead"
+  in one efficient command. (1 addon message). Fixes #1
+
+v0.3.4 Nov 9th 2020
+- Make it clear you need to use `/mama slot x` on each window or through
+  `/mama config` first and do the dynamicboxer one time token setup.
+
+v0.3.3 Nov 8th 2020
+- Adding `/mama f stop` and keybinding for stopping follow on team
+  also works from any window
+- Adding `/mama s N` to set slot from slash command
+- `/mama leader x` sets leader to x (no x = request for self)
+
+v0.03.02 Nov 8th 2020
+- Fix for retail/shadowlands with AH event exception and more
+
+v0.03.01 Nov 8th 2020
+- Reboot with new multiboxing restrictions, make it work without ISBoxer
+  new /mama follow and /mama lead commands and keybindings!
+
+v0.02.06 Aug 16th 2019
+- Make it more clear this is WIP addon at this stage
+- Tweaks to options panel handling/indicate functionality/settings are in DynamicBoxer at the moment.
+
+v0.02.05 Aug 15th 2019
+- moved more code to MoLib (saved var, addon loaded event handling)
+
+v0.02.04 Aug 14th 2019
+- cleanup the zip, adding missing ignores entry in pkgmeta
+
+v0.02.03 Aug 14th 2019
+- [bit.ly/mamabug](https://bit.ly/mamabug) for `/mama bug`
+
+v0.02.02 Aug 14th 2019
+- Minor toc update, going for M.A.M.A. instead of Mama.
+
+v0.02.01 Aug 14th 2019
+- Some code is now shared in MoLib
+- Sync the /mama debug with /dbox's
+- Fixed typo/leftover ppa text from template
+
+v0.02.00 Aug 12th 2019
+- (wip) Auction House scan
+
+v0.01.00 Aug 11th 2019
+- requires DynamicBoxer v2.05.00
+- initial version, created from MooreaTv/WowAddonTemplate
+./newaddon.sh 'Mama' 'MM' 'Mama' 'MAMA' 'mama' 'Mama: MooreaTv'\''s/minimal yet Awesome Multiboxing Assistant (name inspired by Jamba)'
